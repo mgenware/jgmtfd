@@ -1,0 +1,44 @@
+{
+  "name": "jgmtfd",
+  "version": "0.0.1",
+  "description": "Just give me the f*** date",
+  "main": "dist/main.js",
+  "types": "dist/main.d.ts",
+  "author": "Mgen (https://www.mgenware.com)",
+  "homepage": "https://github.com/mgenware/jgmtfd",
+  "bugs": "https://github.com/mgenware/jgmtfd/issues",
+  "keywords": [
+    "date", "format date"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mgenware/jgmtfd.git"
+  },
+  "license": "MIT",
+  "scripts": {
+    "test": "yarn run clean && yarn run compile && yarn run lint && yarn run t",
+    "t": "jest",
+    "build": "yarn test",
+    "compile": "tsc",
+    "dev": "yarn run clean && tsc -w",
+    "prepublishOnly": "yarn run test",
+    "lint": "tslint --project tsconfig.json --config tslint.json",
+    "clean": "rimraf dist"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^23.3.1",
+    "@types/node": "^10.9.4",
+    "jest": "^23.5.0",
+    "rimraf": "^2.6.2",
+    "tslint": "^5.11.0",
+    "typescript": "^3.0.3"
+  },
+  "prettier": {
+    "printWidth": 100,
+    "singleQuote": true,
+    "trailingComma": "all"
+  }
+}
