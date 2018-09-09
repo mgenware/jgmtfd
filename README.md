@@ -5,7 +5,7 @@
 [![npm version](https://img.shields.io/npm/v/jgmtfd.svg?style=flat-square)](https://npmjs.com/package/jgmtfd)
 [![Node.js Version](http://img.shields.io/node/v/jgmtfd.svg?style=flat-square)](https://nodejs.org/en/)
 
-Just give me the f***ing date.
+Just give me the f***ing date (Tiny size =~ 1KB).
 
 ## Installation
 ```sh
