@@ -1,6 +1,6 @@
 {
   "name": "jgmtfd",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "Just give me the f*** date",
   "main": "dist/main.js",
   "types": "dist/main.d.ts",
