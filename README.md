@@ -13,8 +13,11 @@ yarn add jgmtfd
 ```
 
 ## Usage
+English:
 ```js
 const { English } = require('jgmtfd');
+
+const d = new Date();
 
 English(d);
 // Sep 9, 2018
