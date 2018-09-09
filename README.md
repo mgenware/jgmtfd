@@ -28,3 +28,16 @@ English(d, { omitCurrentYear: true }); // Omit current year
 English(d, { DM: true }); // Day comes before month
 // 9 Sep, 2018
 ```
+
+Simplified Chinese:
+```js
+const { SimplifiedChinese } = require('jgmtfd');
+
+const d = new Date();
+
+SimplifiedChinese(d);
+// 2018年9月9日
+
+SimplifiedChinese(d, { omitCurrentYear: true });
+// 9月9日
+```
