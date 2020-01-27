@@ -8,8 +8,7 @@
   "homepage": "https://github.com/mgenware/jgmtfd",
   "bugs": "https://github.com/mgenware/jgmtfd/issues",
   "keywords": [
-    "date",
-    "format date"
+    "date"
   ],
   "repository": {
     "type": "git",
@@ -36,12 +35,12 @@
     "/dist/**/*.map"
   ],
   "devDependencies": {
-    "@types/jest": "^24.0.15",
-    "@types/node": "^12.0.12",
-    "jest": "^24.8.0",
-    "rimraf": "^2.6.3",
-    "tslint": "^5.18.0",
-    "typescript": "^3.5.2"
+    "@types/jest": "^24.9.1",
+    "@types/node": "^13.5.0",
+    "jest": "^25.1.0",
+    "rimraf": "^3.0.0",
+    "tslint": "^6.0.0",
+    "typescript": "^3.7.5"
   },
   "jest": {
     "testRegex": "/tests/.*(\\.|/)(test|spec)\\.jsx?$"
